@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_leaves",
+    "nether_spirit_mod:charred_birch_leaves"
+  ]
+}

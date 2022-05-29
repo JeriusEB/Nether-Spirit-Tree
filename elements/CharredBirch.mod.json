@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CharredBirchLog"
+      },
+      {
+        "value": "CUSTOM:StrippedCharredBirchLog"
+      },
+      {
+        "value": "Blocks.LOG"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

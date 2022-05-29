@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_log",
+    "nether_spirit_mod:stripped_charred_birch_log",
+    "nether_spirit_mod:charred_birch_log"
+  ]
+}

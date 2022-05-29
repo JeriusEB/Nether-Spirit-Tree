@@ -1,0 +1,148 @@
+{
+  "mod_elements": [
+    {
+      "name": "NetherSpiritTP",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_spirit_tp",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CharredBirchLogStrip",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_log_strip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CharredBirchLog",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_log"
+    },
+    {
+      "name": "StrippedCharredBirchLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_charred_birch_log"
+    },
+    {
+      "name": "NetherSpiritTPLeaves",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_spirit_tp_leaves",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CharredBirchLeaves",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_leaves"
+    },
+    {
+      "name": "CharredBirch",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch"
+    },
+    {
+      "name": "CharredLeaves",
+      "type": "tag",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_leaves"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "tx",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "ty",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tz",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.nether_spirit_mod.charred_birch_leaves": "Charred Birch Leaves",
+      "block.nether_spirit_mod.charred_birch_log": "Charred Birch Log",
+      "block.nether_spirit_mod.stripped_charred_birch_log": "Stripped Charred Birch Log"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nether_spirit_mod",
+    "modName": "Nether Spirit Mod",
+    "version": "1.0.0",
+    "author": "Jerius B, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.netherspiritmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

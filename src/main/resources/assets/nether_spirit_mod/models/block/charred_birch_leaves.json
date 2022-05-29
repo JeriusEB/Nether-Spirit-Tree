@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "nether_spirit_mod:blocks/birch_leaves",
+    "particle": "nether_spirit_mod:blocks/birch_leaves"
+  }
+}
