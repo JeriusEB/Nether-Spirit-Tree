@@ -71,28 +71,137 @@
       "registry_name": "charred_birch_leaves"
     },
     {
-      "name": "CharredBirch",
-      "type": "tag",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_birch"
-    },
-    {
-      "name": "CharredLeaves",
-      "type": "tag",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_leaves"
-    },
-    {
       "name": "CharredBirchLog",
       "type": "block",
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "charred_birch_log"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "CharredBirchSapling",
+      "type": "plant",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_sapling"
+    },
+    {
+      "name": "CharredBirchSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_sapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CharredBirchTreeAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_tree_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CharredBirchTree",
+      "type": "structure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_tree"
+    },
+    {
+      "name": "CharredBirchSaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_sapling_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CharredBirchLeavesDrops",
+      "type": "loottable",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_leaves_drops"
     }
   ],
   "variable_elements": [
@@ -113,14 +222,21 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "modidRandomGrowChance",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "block.nether_spirit_mod.charred_birch_leaves": "Charred Birch Leaves",
-      "block.nether_spirit_mod.charred_birch_log": "Stripped Charred Birch Log",
-      "block.nether_spirit_mod.stripped_charred_birch_log": "Stripped Charred Birch Log"
+      "block.nether_spirit_mod.charred_birch_log": "Charred Birch Log",
+      "block.nether_spirit_mod.stripped_charred_birch_log": "Stripped Charred Birch Log",
+      "block.nether_spirit_mod.charred_birch_sapling": "Charred Birch Sapling plant"
     }
   },
   "foldersRoot": {
@@ -141,6 +257,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.netherspiritmod",
     "lockBaseModFiles": false
   },

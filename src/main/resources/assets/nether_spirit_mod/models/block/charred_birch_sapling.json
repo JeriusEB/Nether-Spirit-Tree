@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "nether_spirit_mod:blocks/birch_sapling",
+    "particle": "nether_spirit_mod:blocks/birch_sapling"
+  }
+}

@@ -22,6 +22,8 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class NetherSpiritModModVariables {
+	public static double modidRandomGrowChance = 0;
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		NetherSpiritModMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new,

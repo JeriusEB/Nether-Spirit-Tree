@@ -1,5 +1,6 @@
 {
   "block.nether_spirit_mod.charred_birch_leaves": "Charred Birch Leaves",
-  "block.nether_spirit_mod.charred_birch_log": "Stripped Charred Birch Log",
-  "block.nether_spirit_mod.stripped_charred_birch_log": "Stripped Charred Birch Log"
+  "block.nether_spirit_mod.charred_birch_log": "Charred Birch Log",
+  "block.nether_spirit_mod.stripped_charred_birch_log": "Stripped Charred Birch Log",
+  "block.nether_spirit_mod.charred_birch_sapling": "Charred Birch Sapling plant"
 }

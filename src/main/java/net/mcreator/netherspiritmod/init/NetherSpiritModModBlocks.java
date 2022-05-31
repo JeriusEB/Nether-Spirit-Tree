@@ -16,6 +16,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.netherspiritmod.block.StrippedCharredBirchLogBlock;
+import net.mcreator.netherspiritmod.block.CharredBirchSaplingBlock;
 import net.mcreator.netherspiritmod.block.CharredBirchLogBlock;
 import net.mcreator.netherspiritmod.block.CharredBirchLeavesBlock;
 import net.mcreator.netherspiritmod.NetherSpiritModMod;
@@ -26,11 +27,14 @@ public class NetherSpiritModModBlocks {
 			() -> new StrippedCharredBirchLogBlock());
 	public static final RegistryObject<Block> CHARRED_BIRCH_LEAVES = REGISTRY.register("charred_birch_leaves", () -> new CharredBirchLeavesBlock());
 	public static final RegistryObject<Block> CHARRED_BIRCH_LOG = REGISTRY.register("charred_birch_log", () -> new CharredBirchLogBlock());
+	public static final RegistryObject<Block> CHARRED_BIRCH_SAPLING = REGISTRY.register("charred_birch_sapling",
+			() -> new CharredBirchSaplingBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
+			CharredBirchSaplingBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

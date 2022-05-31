@@ -23,6 +23,8 @@ public class NetherSpiritModModItems {
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> CHARRED_BIRCH_LOG = block(NetherSpiritModModBlocks.CHARRED_BIRCH_LOG,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CHARRED_BIRCH_SAPLING = block(NetherSpiritModModBlocks.CHARRED_BIRCH_SAPLING,
+			CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

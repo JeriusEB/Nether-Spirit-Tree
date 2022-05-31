@@ -6,15 +6,15 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:CharredBirchLeaves"
+        "value": "CUSTOM:StrippedCharredBirchLog"
       },
       {
-        "value": "Blocks.LEAVES"
+        "value": "CUSTOM:CharredBirchLog"
       }
     ],
     "functions": [],
     "entities": [],
-    "name": "leaves",
+    "name": "logs",
     "namespace": "minecraft"
   }
 }

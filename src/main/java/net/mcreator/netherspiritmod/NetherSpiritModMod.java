@@ -27,7 +27,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.netherspiritmod.init.NetherSpiritModModItems;
+import net.mcreator.netherspiritmod.init.NetherSpiritModModFeatures;
 import net.mcreator.netherspiritmod.init.NetherSpiritModModBlocks;
+import net.mcreator.netherspiritmod.init.NetherSpiritModModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -47,6 +49,9 @@ public class NetherSpiritModMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		NetherSpiritModModBlocks.REGISTRY.register(bus);
 		NetherSpiritModModItems.REGISTRY.register(bus);
+
+		NetherSpiritModModBlockEntities.REGISTRY.register(bus);
+		NetherSpiritModModFeatures.REGISTRY.register(bus);
 
 	}
 

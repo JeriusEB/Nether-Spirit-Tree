@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Stripped Charred Birch Log",
+    "name": "Charred Birch Log",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 2.0,
@@ -54,7 +54,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "CharredBirchLogStrip"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
