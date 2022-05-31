@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "nether_spirit_mod:blocks/charredbirchtop",
+    "down": "nether_spirit_mod:blocks/strippedcharredbirchtop",
     "up": "nether_spirit_mod:blocks/charredbirchtop",
     "north": "nether_spirit_mod:blocks/charredbirchside",
     "east": "nether_spirit_mod:blocks/charredbirchside",
     "south": "nether_spirit_mod:blocks/charredbirchside",
     "west": "nether_spirit_mod:blocks/charredbirchside",
-    "particle": "nether_spirit_mod:blocks/charredbirchtop"
+    "particle": "nether_spirit_mod:blocks/strippedcharredbirchtop"
   }
 }

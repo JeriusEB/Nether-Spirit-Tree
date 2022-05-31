@@ -17,11 +17,11 @@ import net.mcreator.netherspiritmod.NetherSpiritModMod;
 
 public class NetherSpiritModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, NetherSpiritModMod.MODID);
-	public static final RegistryObject<Item> CHARRED_BIRCH_LOG = block(NetherSpiritModModBlocks.CHARRED_BIRCH_LOG,
-			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> STRIPPED_CHARRED_BIRCH_LOG = block(NetherSpiritModModBlocks.STRIPPED_CHARRED_BIRCH_LOG,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> CHARRED_BIRCH_LEAVES = block(NetherSpiritModModBlocks.CHARRED_BIRCH_LEAVES,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CHARRED_BIRCH_LOG = block(NetherSpiritModModBlocks.CHARRED_BIRCH_LOG,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

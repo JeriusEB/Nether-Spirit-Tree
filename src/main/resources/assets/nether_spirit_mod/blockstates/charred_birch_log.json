@@ -1,19 +1,16 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "nether_spirit_mod:block/charred_birch_log"
-    },
-    "facing=east": {
+    "axis=x": {
       "model": "nether_spirit_mod:block/charred_birch_log",
+      "x": 90,
       "y": 90
     },
-    "facing=south": {
-      "model": "nether_spirit_mod:block/charred_birch_log",
-      "y": 180
+    "axis=y": {
+      "model": "nether_spirit_mod:block/charred_birch_log"
     },
-    "facing=west": {
+    "axis=z": {
       "model": "nether_spirit_mod:block/charred_birch_log",
-      "y": 270
+      "x": 90
     }
   }
 }

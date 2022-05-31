@@ -22,10 +22,10 @@ import net.mcreator.netherspiritmod.NetherSpiritModMod;
 
 public class NetherSpiritModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, NetherSpiritModMod.MODID);
-	public static final RegistryObject<Block> CHARRED_BIRCH_LOG = REGISTRY.register("charred_birch_log", () -> new CharredBirchLogBlock());
 	public static final RegistryObject<Block> STRIPPED_CHARRED_BIRCH_LOG = REGISTRY.register("stripped_charred_birch_log",
 			() -> new StrippedCharredBirchLogBlock());
 	public static final RegistryObject<Block> CHARRED_BIRCH_LEAVES = REGISTRY.register("charred_birch_leaves", () -> new CharredBirchLeavesBlock());
+	public static final RegistryObject<Block> CHARRED_BIRCH_LOG = REGISTRY.register("charred_birch_log", () -> new CharredBirchLogBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

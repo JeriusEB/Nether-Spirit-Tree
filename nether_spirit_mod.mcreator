@@ -44,14 +44,6 @@
       }
     },
     {
-      "name": "CharredBirchLog",
-      "type": "block",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_birch_log"
-    },
-    {
       "name": "StrippedCharredBirchLog",
       "type": "block",
       "sortid": 4,
@@ -93,6 +85,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "charred_leaves"
+    },
+    {
+      "name": "CharredBirchLog",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_birch_log"
     }
   ],
   "variable_elements": [
@@ -119,7 +119,7 @@
   "language_map": {
     "en_us": {
       "block.nether_spirit_mod.charred_birch_leaves": "Charred Birch Leaves",
-      "block.nether_spirit_mod.charred_birch_log": "Charred Birch Log",
+      "block.nether_spirit_mod.charred_birch_log": "Stripped Charred Birch Log",
       "block.nether_spirit_mod.stripped_charred_birch_log": "Stripped Charred Birch Log"
     }
   },

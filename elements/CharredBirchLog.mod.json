@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "charredbirchtop",
+    "texture": "strippedcharredbirchtop",
     "textureTop": "charredbirchtop",
     "textureLeft": "charredbirchside",
     "textureFront": "charredbirchside",
@@ -10,7 +10,7 @@
     "textureBack": "charredbirchside",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 1,
+    "rotationMode": 5,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Charred Birch Log",
+    "name": "Stripped Charred Birch Log",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 2.0,
@@ -99,7 +99,7 @@
     "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "LAVA"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -121,9 +121,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "CharredBirchLogStrip"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
