@@ -52,17 +52,6 @@
       "registry_name": "stripped_charred_birch_log"
     },
     {
-      "name": "NetherSpiritTPLeaves",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nether_spirit_tp_leaves",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "CharredBirchLeaves",
       "type": "block",
       "sortid": 6,
